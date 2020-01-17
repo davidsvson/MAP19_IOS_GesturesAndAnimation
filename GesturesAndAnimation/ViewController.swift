@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        // let tap wait for doubletap to fail
         singleTapRecognizer.require(toFail: doubleTapRecognizer)
     }
     
