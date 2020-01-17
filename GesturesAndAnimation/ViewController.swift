@@ -21,11 +21,13 @@ class ViewController: UIViewController {
         singleTapRecognizer.require(toFail: doubleTapRecognizer)
     }
     
+    // Handle single tap
     @IBAction func singleTap(_ sender: UITapGestureRecognizer) {
         showGesture(name: "Tap")
         
     }
     
+    //handle double tap
     @IBAction func doubleTap(_ sender: UITapGestureRecognizer) {
         showGesture(name: "Double Tap")
     }
